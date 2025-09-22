@@ -1,22 +1,61 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
 
-    <style media="(prefers-color-scheme: light)">
-      @import url('./src/styles/colors/light.css');
-    </style>
-    <style media="(prefers-color-scheme: dark)">
-      @import url('./src/styles/colors/dark.css');
-    </style>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <title>Vite App</title>
 
-    <h1>Всем привет это сайт Артемия</h1>
+  <link rel="stylesheet" href="/src/styles/colors/colors.css">
+  <link rel="stylesheet" href="./src/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <script type="module" src="/src/index.js"></script>
-  </body>
+  <style media="(prefers-color-scheme: light)">
+    @import url('./src/styles/colors/light.css');
+  </style>
+  <style media="(prefers-color-scheme: dark)">
+    @import url('./src/styles/colors/dark.css');
+  </style>
+</head>
+
+<body>
+  <div class="colored">
+    <h2 class="title">{Finsweet<h2>
+        <nav class="upper_block">
+
+          <a class="upper_link" href=" /home">
+            Home
+          </a>
+          <a class="upper_link" href="/home">
+            Blog
+          </a>
+          <a class="upper_link" href="/home">
+            About Us
+          </a>
+          <a class="upper_link" href="/home">
+            Contact us
+          </a>
+          <button class="button">Subscribe</button>
+        </nav>
+
+  </div>
+  <div class="img_mujic">
+    <div class="mujic_text">
+      <span class="startup_mujic_text">POSTED ON <b>STARTUP</b> </span>
+      <h1 class="big_mujic_text">Step-by-step guide to choosing <br> great font pairs</h1>
+      <p class="name_basic_text">By <span class="name_mujic_text">James West</span> | May 23, 2022 </p>
+      <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br> fugiat nulla pariatur.
+        Excepteur sint
+        occaecat cupidatat non proident.</p>
+      <button class="read_more_button"><b>Read more ></b> </button>
+    </div>
+
+
+
+  </div>
+
+
+  <script type="module" src="/src/index.js"></script>
+</body>
+
 </html>

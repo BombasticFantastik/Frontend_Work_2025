@@ -9,3 +9,98 @@
 	--light-grey: #f4f4f4;
 	--lavender: #f4f0f8;
 }
+
+@font-face {
+	font-family: 'Sen';
+	src: url('../../../Fonts/Sen/Sen-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-display: swap;
+}
+
+body {
+	font-family: 'Sen', sans-serif;
+	font-size: 16px;
+
+}
+
+.title {
+	font-family: 'Sen', sans-serif;
+	color: var(--light);
+	font-size: 30px;
+	padding-left: 70px;
+	font-weight: 700;
+
+}
+
+.colored {
+	display: flex;
+	align-items: center;
+	font-family: ;
+	height: 5rem;
+	background-color: var(--black);
+	justify-content: center;
+}
+
+.upper_link {
+	padding-left: 20px;
+}
+
+.upper_block {
+	padding-left: 550px;
+}
+
+.img_mujic {
+
+	height: 720px;
+	background-image: url(/Images/mujic_sidit.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	color: var(--black);
+	background-color: var(--light);
+	margin-left: 20px;
+	width: 150px;
+	height: 50px;
+}
+
+.mujic_text {
+	display: flex;
+	flex-direction: row;
+	padding-left: 5%;
+	padding-top: 5%;
+	max-width: 6000px;
+}
+
+.startup_mujic_text {
+	font-size: 5%;
+}
+
+.name_basic_text {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.name_mujic_text {
+	color: var(--yellow);
+}
+
+.read_more_button {
+	margin-top: 5%;
+	color: var(--black);
+	background-color: var(--yellow);
+	width: 20%;
+	height: 15%;
+}
+
+.big_mujic_text {
+	padding-top: 0%;
+	line-height: 100%;
+	font-family: 'Sen', sans-serif;
+	color: var(--light);
+	font-size: 400%;
+	font-weight: 4%;
+}
