@@ -207,7 +207,7 @@ body {
 .third_block {
 	background-color: var(--light);
 	width: 1550px;
-	height: 720px;
+	height: 680px;
 }
 
 
@@ -303,4 +303,55 @@ body {
 	color: var(--black);
 	font-size: 30px;
 	font-weight: 4%;
+}
+
+/*четвёртый блок*/
+.fourth_block {
+
+	background-color: var(--light);
+	width: 1550px;
+	height: 720px;
+}
+
+.choose_a_catagory_text {
+	font-family: 'Sen', sans-serif;
+	display: flex;
+	justify-content: center;
+	color: var(--black);
+	font-size: 35px;
+	font-weight: 4%;
+}
+
+
+.fourth_boxes {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	width: 1550px;
+	height: 720px;
+	margin-left: 60px;
+}
+
+.white_box {
+	border: 1px solid var(--medium-grey);
+	padding-left: 50px;
+	padding-top: 25px;
+	margin-left: 50px;
+	background-color: var(--light);
+	width: 296px;
+	height: 228px;
+}
+
+.yellow_box {
+	padding-left: 50px;
+	padding-top: 25px;
+	margin-left: 50px;
+	background-color: var(--yellow);
+	width: 296px;
+	height: 228px;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
 }
