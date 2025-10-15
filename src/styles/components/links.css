@@ -1,0 +1,15 @@
+.header__navigation {
+    font-size: 1rem;
+    margin-left: 700px;
+    padding-right: 50px;
+    gap: 50px;
+    /*font-family: sans-serif;*/
+}
+
+.header__link {
+    color: var(--light)
+}
+
+.view_all__link {
+    color: var(--purple);
+}

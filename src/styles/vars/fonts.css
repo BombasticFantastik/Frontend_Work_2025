@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Sen';
+    src: url('../../../Fonts/Sen/Sen-Bold.ttf');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/* @font-face {
+    font-family: 'Sen';
+    src: url('../../../Fonts/Sen/Sen-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+} */
+
+.__white_font {
+    color: var(--light);
+}
+
+.__yellow_font {
+    color: var(--yellow);
+}
+
+.__purple_font {
+    color: var(--purple);
+}
