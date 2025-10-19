@@ -1,0 +1,61 @@
+.about {}
+
+.about__content {
+  background-color: var(--lavender);
+  margin: 0px 75px 75px 75px;
+  padding: 75px;
+  max-width: 1280px;
+  display: flex;
+  gap: 200px;
+
+}
+
+.about__item {}
+
+.about__label {
+  color: var(--black);
+}
+
+.about__title {
+  width: 480px;
+}
+
+.about__title--small {
+  max-width: 450px;
+  width: 500px;
+}
+
+.about__text {
+  max-width: 500px;
+  line-height: 170%;
+}
+
+.about__link {
+  color: var(--purple);
+}
+
+
+.about__lines {
+  width: 1461px;
+  min-width: 1461px;
+  display: flex;
+}
+
+
+.about__white-line {
+  background-color: var(--light);
+  width: 300px;
+  height: 23px;
+}
+
+.about__yellow-line {
+  background-color: var(--yellow);
+  width: 879px;
+  height: 23px;
+}
+
+.about__purple-line {
+  width: 282px;
+  height: 23px;
+  background-color: var(--purple);
+}

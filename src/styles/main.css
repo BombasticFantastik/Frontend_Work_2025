@@ -7,9 +7,10 @@
 
 @import 'vars/colors';
 @import 'vars/fonts';
-@import 'components/img';
-@import 'components/other';
 @import 'components/header';
 @import 'components/button';
 @import 'base/base';
-@import 'components/links.css'
+@import 'components/hero';
+@import 'components/posts';
+@import 'components/about';
+@import 'components/categories';

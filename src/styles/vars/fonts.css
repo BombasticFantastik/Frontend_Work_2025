@@ -19,15 +19,3 @@
     font-weight: 700;
     font-display: swap;
 } */
-
-.__white_font {
-    color: var(--light);
-}
-
-.__yellow_font {
-    color: var(--yellow);
-}
-
-.__purple_font {
-    color: var(--purple);
-}

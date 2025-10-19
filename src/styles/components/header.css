@@ -1,12 +1,18 @@
-/* .header__navigation {
-    font-size: 1rem;
-    margin-left: 700px;
-    padding-right: 50px;
-    gap: 50px;
-    /*font-family: sans-serif;
+.header {
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.header__navigation {
+  font-size: 1rem;
+  margin-left: 700px;
+  padding-right: 50px;
+  gap: 50px;
+  font-family: sans-serif;
 }
 
 .header__link {
-    color: var(--light)
-} 
-*/
+  color: var(--light)
+}

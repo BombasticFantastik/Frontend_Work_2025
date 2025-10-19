@@ -1,6 +1,6 @@
 .button {}
 
-.button--yellow {
+.button-theme__yellow {
   padding: 16px 48px;
   height: 56px;
   background-color: var(--yellow);
@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-.button--white {
+.button-theme__white {
   padding: 16px 48px;
   height: 56px;
   font-size: 18px;

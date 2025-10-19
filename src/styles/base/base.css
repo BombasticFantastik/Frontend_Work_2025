@@ -1,62 +1,64 @@
 body {
-    font-size: 1rem;
-    font-family: 'Sen';
-    font-weight: 700;
-    margin: 0px;
+  /* font-size: 1rem;
+  font-family: 'Sen';
+  font-weight: 700;
+  margin: 0px; */
+
+  margin: auto;
+  max-width: 1560px;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'Sen';
 }
 
-header {
-    background-color: var(--black);
-    display: flex;
-    align-items: center;
-    height: 80px;
-}
+header {}
 
 nav {
-    display: flex;
+  display: flex;
 }
 
 img {}
 
 h1 {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 114%;
-    letter-spacing: -0.04em;
-    font-family: 'Sen';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 114%;
+  letter-spacing: -0.04em;
+  font-family: 'Sen';
 }
 
 
 h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 133%;
-    letter-spacing: -0.06em;
-    font-family: 'Sen';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 133%;
+  letter-spacing: -0.06em;
+  font-family: 'Sen';
 }
 
 h3 {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 143%;
-    letter-spacing: -0.04em;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 143%;
+  letter-spacing: -0.04em;
 }
 
 h4 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 133%;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
 }
 
 p {
-    font-family: sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    max-width: 40%;
-    color: var(--medium-grey);
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 40%;
+  color: var(--medium-grey);
 
 }
 
 article {
-    line-height: 30px;
+  line-height: 30px;
 }

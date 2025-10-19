@@ -1,0 +1,58 @@
+.posts {}
+
+.posts__container {
+  margin-left: 75px;
+  display: flex;
+
+
+}
+
+.posts__featured {
+  max-width: 700px;
+  margin-right: 50px;
+  /* border: 1px solid black; */
+}
+
+.posts__heading {}
+
+.post__image {
+  width: 669px;
+  height: 352px;
+  ;
+}
+
+.post__meta {}
+
+.post__author {
+  color: var(--purple);
+}
+
+.post__title {}
+
+.post__excerpt {
+  max-width: 560px;
+}
+
+.posts__all {}
+
+
+.post-list {}
+
+.post-list__item {
+  max-width: 380px;
+}
+
+.post-list__meta {
+  max-width: 300px;
+}
+
+.post-list__author {
+  color: var(--purple);
+}
+
+.post-list__title {}
+
+.posts__view-all {
+  margin-left: 100px;
+  margin-top: 50px;
+}
