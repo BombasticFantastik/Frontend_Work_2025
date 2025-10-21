@@ -10,8 +10,6 @@
 .posts__featured {
   max-width: 700px;
   margin-right: 50px;
-
-
 }
 
 .post--featured {
@@ -19,31 +17,34 @@
   padding: 45px;
 }
 
-.posts__heading {}
+.posts__heading {
+}
 
 .post__image {
   max-width: 659px;
   width: 100%;
   height: 300px;
-  ;
 }
 
-.post__meta {}
+.post__meta {
+}
 
 .post__author {
   color: var(--purple);
 }
 
-.post__title {}
+.post__title {
+}
 
 .post__excerpt {
   max-width: 560px;
 }
 
-.posts__all {}
+.posts__all {
+}
 
-
-.post-list {}
+.post-list {
+}
 
 .post-list__item {
   max-width: 380px;
@@ -57,7 +58,8 @@
   color: var(--purple);
 }
 
-.post-list__title {}
+.post-list__title {
+}
 
 .posts__view-all {
   margin-left: 100px;

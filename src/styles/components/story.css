@@ -1,14 +1,19 @@
-.story {}
+.story {
+}
 
 .story__image {
   padding: 75px;
   max-width: 1280px;
 }
 
-.story__content {}
+.story__content {
+}
 
-.story__label {}
+.story__label {
+}
 
-.story__title {}
+.story__title {
+}
 
-.story__text {}
+.story__text {
+}

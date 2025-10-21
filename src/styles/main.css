@@ -4,7 +4,6 @@
 @import './styles/global/utility.css';
 @import './styles/components/container.css'; */
 
-
 @import 'vars/colors';
 @import 'vars/fonts';
 @import 'components/header';

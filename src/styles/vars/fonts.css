@@ -1,17 +1,16 @@
 @font-face {
-    font-family: 'Sen';
-    src: url('../../../Fonts/Sen/Sen-Bold.ttf');
-    font-display: swap;
-    font-style: normal;
-    font-weight: 700;
+  font-family: Sen;
+  src: url('../../../Fonts/Sen/Sen-Bold.ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 400;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
-
 
 /* @font-face {
     font-family: 'Sen';

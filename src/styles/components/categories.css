@@ -1,35 +1,28 @@
-.categories {}
+.categories {
+}
 
 .categories__title {
   text-align: center;
-
 }
 
 .categories__list {
   display: flex;
-
 }
-
-
 
 .category {
   border: 2px solid var(--light-grey);
   margin: 25px;
   padding: 40px;
-
 }
 
 .category--theme_yellow {
-  border: 0px solid var(--light-grey);
+  border: 0 solid var(--light-grey);
   background-color: var(--yellow);
-
 }
-
 
 .category__icon-image-house {
   position: absolute;
   margin-left: -46px;
-
 }
 
 .category__icon-image {
@@ -38,9 +31,11 @@
   margin-top: 12px;
 }
 
-.category__icon {}
+.category__icon {
+}
 
-.category__title {}
+.category__title {
+}
 
 .category__description {
   max-width: 500px;

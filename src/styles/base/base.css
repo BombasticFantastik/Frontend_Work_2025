@@ -12,34 +12,35 @@ body {
   line-height: 1.6;
   font-size: 1rem;
   font-weight: 700;
-  font-family: 'Sen';
+  font-family: Sen, sans-serif;
   background-color: var(--light);
 }
 
-header {}
+header {
+}
 
 nav {
   display: flex;
 }
 
-img {}
+img {
+}
 
 h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 114%;
   letter-spacing: -0.04em;
-  font-family: 'Sen';
+  font-family: Sen, sans-serif;
   color: var(--black);
 }
-
 
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 133%;
   letter-spacing: -0.06em;
-  font-family: 'Sen';
+  font-family: Sen, sans-serif;
   color: var(--black);
 }
 
@@ -64,7 +65,6 @@ p {
   font-size: 16px;
   max-width: 40%;
   color: var(--medium-grey);
-
 }
 
 article {

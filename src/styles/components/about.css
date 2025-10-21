@@ -12,11 +12,11 @@
   max-width: 1280px;
   display: flex;
   gap: 200px;
-  Box-sizing: border-box;
-
+  box-sizing: border-box;
 }
 
-.about__item {}
+.about__item {
+}
 
 .about__label {
   color: var(--black);
@@ -38,17 +38,13 @@
 
 .about__link {
   color: var(--purple);
-
 }
-
 
 .about__lines {
   /* max-width: 1461px; */
   width: 1280px;
-
   display: flex;
 }
-
 
 .about__white-line {
   background-color: var(--light);
