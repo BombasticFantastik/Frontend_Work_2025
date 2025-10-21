@@ -1,8 +1,18 @@
 .header {
-  background-color: var(--black);
+  background-color: #232536;
   display: flex;
   align-items: center;
+  gap: 30px;
   height: 80px;
+}
+
+.header__left {
+  margin-left: 75px;
+}
+
+.header__right {
+  flex-grow: 1;
+
 }
 
 .header__navigation {
@@ -14,5 +24,10 @@
 }
 
 .header__link {
-  color: var(--light)
+  color: #fff;
+}
+
+.header__nav {
+  gap: 30px;
+  margin-left: 700px;
 }

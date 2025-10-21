@@ -1,12 +1,18 @@
-.about {}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 1280px;
+}
 
 .about__content {
   background-color: var(--lavender);
-  margin: 0px 75px 75px 75px;
   padding: 75px;
   max-width: 1280px;
   display: flex;
   gap: 200px;
+  Box-sizing: border-box;
 
 }
 
@@ -32,30 +38,33 @@
 
 .about__link {
   color: var(--purple);
+
 }
 
 
 .about__lines {
-  width: 1461px;
-  min-width: 1461px;
+  /* max-width: 1461px; */
+  width: 1280px;
+
   display: flex;
 }
 
 
 .about__white-line {
   background-color: var(--light);
-  width: 300px;
+  width: 194px;
   height: 23px;
 }
 
 .about__yellow-line {
   background-color: var(--yellow);
-  width: 879px;
+  width: 804px;
   height: 23px;
 }
 
 .about__purple-line {
   width: 282px;
+  max-width: 282px;
   height: 23px;
   background-color: var(--purple);
 }

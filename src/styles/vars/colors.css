@@ -1,13 +1,25 @@
 :root {
-	--black: #232536;
-	--yellow: #ffd050;
-	--dark-grey: #4c4c4c;
-	--medium-grey: #6d6e76;
-	--purple: #592ea9;
-	--light: #fff;
-	--light-yellow: #fbf6ea;
-	--light-grey: #f4f4f4;
-	--lavender: #f4f0f8;
+  --black: #232536;
+  --yellow: #ffd050;
+  --dark-grey: #4c4c4c;
+  --medium-grey: #6d6e76;
+  --purple: #592ea9;
+  --light: #fff;
+  --light-yellow: #fbf6ea;
+  --light-grey: #f4f4f4;
+  --lavender: #f4f0f8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --black: #fff;
+    --yellow: #4c4c4c;
+    --dark-grey: #4c4c4c;
+    --medium-grey: #f4f4f4;
+    --purple: #fff;
+    --light: #232536;
+    --lavender: #4c4c4c;
+  }
 }
 
 /* body {

@@ -1,41 +1,39 @@
 .hero {
-
   background-size: 100% 100%;
   height: 720px;
-  width: 1550px;
+  width: 100%;
   background-image: url(/Images/Мужчина_с_компьютером.png);
   background-repeat: no-repeat;
-
-
 
 }
 
 .hero__content {
   padding-left: 75px;
   padding-top: 75px;
-  color: var(--light)
+  color: #fff;
 }
 
 .hero__meta {
-  color: var(--light)
+  color: #fff;
 }
 
 .hero__category {
-  color: var(--light)
+  color: #fff;
 }
 
 .hero__title {
-  color: var(--light)
+  color: #fff;
 }
 
 .hero__author {
-  color: var(--light)
+  color: #fff;
 }
 
 .hero__author-name {
-  color: var(--yellow);
+  color: #ffd050;
+
 }
 
 .hero__description {
-  color: var(--light)
+  color: #fff;
 }

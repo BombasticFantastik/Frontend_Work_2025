@@ -8,12 +8,14 @@
   font-size: 18px;
   font-weight: 700;
   font-style: normal;
+  color: var(--black);
 }
 
 .button-theme__white {
   padding: 16px 48px;
   height: 56px;
   font-size: 18px;
+  color: var(--black);
   background-color: var(--light);
   font-family: 'Sen';
   font-weight: 700;
