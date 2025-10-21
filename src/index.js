@@ -1,1 +1,1 @@
-import '/home/artemybombastic/UniWorks/Frontend/src/styles/main.css';
+import './styles/main.css';
