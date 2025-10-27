@@ -1,0 +1,104 @@
+.comments {
+  background-color: var(--light-yellow);
+}
+
+.comments__content {
+  padding: 125px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.comments__left-content {
+  /* стили по необходимости */
+}
+
+.comments__line {
+  border: 1px solid var(--medium-grey);
+  min-width: 400px;
+  height: 0;
+  transform: rotate(-90deg);
+  opacity: 0.4;
+  margin: -100px;
+}
+
+.comments__text {
+  color: var(--black);
+  max-width: 1000px;
+  min-width: 300px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.comments__title {
+  color: var(--black);
+  /* стили заголовка */
+}
+
+.comments__description {
+  color: var(--black);
+  max-width: 1000px;
+  min-width: 350px;
+}
+
+.comments__right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments__quote {
+  min-width: 500px;
+  /* стили цитаты */
+}
+
+.comments__author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1.4;
+}
+
+.comments__author-icon {
+  /* стили иконки */
+}
+
+.comments__author-info {
+  width: 500px;
+}
+
+.comments__author-name {
+  color: var(--black);
+  font-family: Sen, sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.comments__author-location {
+  color: var(--medium-grey);
+  margin: 0;
+}
+
+.comments__controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.comments__control {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Модификаторы для кнопок */
+.comments__control--prev svg {
+  /* можно добавить специфичные стили, если нужно */
+}
+
+.comments__control--next svg {
+  /* аналогично */
+}

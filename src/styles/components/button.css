@@ -1,26 +1,22 @@
 .button {
+  padding: 16px 48px;
+  height: 56px;
+  font-size: 18px;
+  font-family: Sen, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--black);
+  border: 1px solid var(--black);
 }
 
 .button-theme__yellow {
-  padding: 16px 48px;
-  height: 56px;
   background-color: var(--yellow);
-  font-family: Sen, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  font-style: normal;
-  color: var(--black);
 }
 
 .button-theme__white {
-  padding: 16px 48px;
-  height: 56px;
-  font-size: 18px;
-  color: var(--black);
+
   background-color: var(--light);
-  font-family: Sen, sans-serif;
-  font-weight: 700;
-  font-style: normal;
+
 }
 
 /* .read_more_button {

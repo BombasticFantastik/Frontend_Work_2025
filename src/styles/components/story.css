@@ -1,19 +1,32 @@
 .story {
+  display: flex;
+
 }
 
 .story__image {
   padding: 75px;
-  max-width: 1280px;
+  width: 949px;
+  height: 705px;
 }
 
 .story__content {
+  background-color: var(--light);
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 200px;
+  padding: 75px 75px 100px 75px;
+  max-width: 706px;
 }
 
 .story__label {
+  color: var(--black);
 }
 
 .story__title {
+  max-width: 390px;
+  line-height: 150%;
 }
 
 .story__text {
+  max-width: 590px;
 }

@@ -1,5 +1,4 @@
-.categories {
-}
+.categories {}
 
 .categories__title {
   text-align: center;
@@ -12,7 +11,7 @@
 .category {
   border: 2px solid var(--light-grey);
   margin: 25px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .category--theme_yellow {
@@ -31,11 +30,9 @@
   margin-top: 12px;
 }
 
-.category__icon {
-}
+.category__icon {}
 
-.category__title {
-}
+.category__title {}
 
 .category__description {
   max-width: 500px;

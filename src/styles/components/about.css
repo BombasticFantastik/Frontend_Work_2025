@@ -8,15 +8,14 @@
 
 .about__content {
   background-color: var(--lavender);
-  padding: 75px;
   max-width: 1280px;
-  display: flex;
   gap: 200px;
+  padding: 75px;
   box-sizing: border-box;
+  display: flex;
 }
 
-.about__item {
-}
+.about__item {}
 
 .about__label {
   color: var(--black);
@@ -42,7 +41,7 @@
 
 .about__lines {
   /* max-width: 1461px; */
-  width: 1280px;
+  width: 1350px;
   display: flex;
 }
 
@@ -54,13 +53,12 @@
 
 .about__yellow-line {
   background-color: var(--yellow);
-  width: 804px;
+  width: 889px;
   height: 23px;
 }
 
 .about__purple-line {
   width: 282px;
-  max-width: 282px;
   height: 23px;
   background-color: var(--purple);
 }
