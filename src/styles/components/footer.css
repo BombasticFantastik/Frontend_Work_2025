@@ -1,70 +1,113 @@
 .footer {
   background-color: var(--black);
+  /* padding: 60px 0 40px; */
+}
+
+.footer__container {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 60px 0px;
   display: flex;
   flex-direction: column;
-
-
-}
-
-.footer__content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.footer__header-dubler {
-  display: flex;
-  align-items: center;
-  gap: 790px;
-  padding: 60px 0px 25px 0px;
-}
-
-.footer__link {
-  color: var(--light);
-}
-
-.footer__nav {
-  gap: 25px;
-}
-
-.footer__logo {}
-
-.footer__email {
-  background-color: var(--medium-grey);
-  display: flex;
-  align-items: center;
-  padding: 50px;
   gap: 50px;
 }
 
-.footer__email-text {
-  color: var(--light);
-  max-width: 550px;
-}
-
-.footer__other {
+.footer__brand {
   display: flex;
   align-items: center;
-  justify-content: center;
-  line-height: 0px;
-  gap: 1038px;
+  justify-content: space-between;
 }
 
-.footer__other-icons {
+.footer__logo svg {
+  display: block;
+}
+
+.footer__nav {
   display: flex;
   gap: 25px;
 }
 
-.footer__other-text {
-  margin: 0px;
-  gap: 0px;
-  line-height: 0px
+.footer__nav-link {
+  color: var(--light);
+  text-decoration: none;
 }
 
-.footer__deskription {
-  margin: 0px;
-  gap: 0px;
-  line-height: 0px;
+.footer__subscribe {
+  background-color: #2e3040;
+  display: flex;
+  align-items: center;
+  padding: 75px;
+  gap: 50px;
 }
 
-/* .email */
+.footer__subscribe-title {
+  color: var(--light);
+  width: 600px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.footer__subscribe-input {
+  width: 323px;
+  padding: 12px 16px;
+  background-color: #2e3040;
+  color: var(--light);
+  border: 1px solid var(--medium-grey);
+  border-radius: 0px;
+  font-size: 16px;
+  outline: none;
+
+  &::placeholder {
+    color: var(--light);
+    opacity: 0.7;
+  }
+
+  &:focus {
+    border-color: #ffffff;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+  }
+}
+
+.footer__subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: row;
+  line-height: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.footer__contacts-text {
+  margin: 0;
+  color: var(--light);
+  font-size: 16px;
+}
+
+.footer__social {
+  display: flex;
+  gap: 25px;
+}
+
+.footer__support {
+  line-height: 30px;
+  min-width: 670px;
+
+}
+
+.footer__support-text {
+  margin: 0;
+  color: var(--light);
+  font-size: 16px;
+}
+
+.footer__down-panel {
+  display: flex;
+  gap: 490px;
+  align-items: flex-start;
+}

@@ -42,6 +42,7 @@
 }
 
 .comments__right-content {
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   gap: 100px;
@@ -55,6 +56,7 @@
 }
 
 .comments__author {
+  max-width: 500px;
   display: flex;
   align-items: center;
   gap: 10px;
