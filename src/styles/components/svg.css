@@ -1,0 +1,15 @@
+.finesweet_svg {
+  fill: white;
+}
+
+.link_svg {
+  fill: var(--black);
+}
+
+.companys__svg {
+  fill: var(--black);
+}
+
+.button__svg {
+  fill: var(--black-blue);
+}

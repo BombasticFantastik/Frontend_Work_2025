@@ -1,5 +1,5 @@
 .header {
-  background-color: #232536;
+  background-color: var(--black-blue);
   display: flex;
   align-items: center;
   padding: 10px 0px 10px 0px;

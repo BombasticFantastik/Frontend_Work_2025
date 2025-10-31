@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--black);
+  background-color: var(--black-blue);
   /* padding: 60px 0 40px; */
 }
 
@@ -31,12 +31,12 @@
 }
 
 .footer__nav-link {
-  color: var(--light);
+  color: #fff;
   text-decoration: none;
 }
 
 .footer__subscribe {
-  background-color: #2e3040;
+  background-color: var(--black-lighter-blue);
   display: flex;
   align-items: center;
   padding: 75px;
@@ -44,7 +44,7 @@
 }
 
 .footer__subscribe-title {
-  color: var(--light);
+  color: #fff;
   width: 600px;
   margin: 0;
   line-height: 1.4;
@@ -53,20 +53,20 @@
 .footer__subscribe-input {
   width: 323px;
   padding: 12px 16px;
-  background-color: #2e3040;
-  color: var(--light);
+  background-color: var(--black-lighter-blue);
+  color: #fff;
   border: 1px solid var(--medium-grey);
   border-radius: 0px;
   font-size: 16px;
   outline: none;
 
   &::placeholder {
-    color: var(--light);
+    color: #fff;
     opacity: 0.7;
   }
 
   &:focus {
-    border-color: #ffffff;
+    border-color: #fff;
     box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
   }
 }
@@ -88,7 +88,7 @@
 
 .footer__contacts-text {
   margin: 0;
-  color: var(--light);
+  color: #fff;
   font-size: 16px;
 }
 
@@ -105,7 +105,7 @@
 
 .footer__support-text {
   margin: 0;
-  color: var(--light);
+  color: #fff;
   font-size: 16px;
 }
 
