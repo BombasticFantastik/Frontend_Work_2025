@@ -37,3 +37,31 @@
 .category__description {
   max-width: 500px;
 }
+
+@media (max-width: 768px) {
+  .categories__list {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+  }
+
+  .category {
+    max-width: 100%;
+    width: 100%;
+    margin: 16px 0;
+    padding: 20px;
+    position: relative;
+  }
+
+  /* Сбрасываем absolute-позиционирование на мобильных */
+  .category__icon-image-house,
+  .category__icon-image {
+    position: static;
+    margin: 0 0 12px 0;
+    display: block;
+  }
+
+  .category__description {
+    max-width: 100%;
+  }
+}

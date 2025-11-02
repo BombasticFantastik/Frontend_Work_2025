@@ -104,3 +104,43 @@
 .comments__control--next svg {
   /* аналогично */
 }
+
+@media (max-width: 768px) {
+  .comments__content {
+    padding: 40px 16px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .comments__line {
+    display: none;
+    /* вертикальная линия не нужна на мобильных */
+  }
+
+  .comments__text,
+  .comments__description,
+  .comments__title {
+    max-width: 100%;
+    min-width: auto;
+    font-size: 1.1rem;
+  }
+
+  .comments__right-content {
+    max-width: 100%;
+    gap: 40px;
+  }
+
+  .comments__quote,
+  .comments__author,
+  .comments__author-info {
+    min-width: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .comments__author {
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+  }
+}

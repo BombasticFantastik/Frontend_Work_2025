@@ -30,3 +30,34 @@
 .story__text {
   max-width: 590px;
 }
+
+@media (max-width: 768px) {
+  .story {
+    flex-direction: column;
+    position: relative;
+    /* чтобы absolute не слетал */
+    padding: 0 16px;
+  }
+
+  .story__image {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    order: 2;
+    /* изображение под текстом */
+  }
+
+  .story__content {
+    position: static;
+    /* отменяем absolute */
+    margin: 0 0 40px 0;
+    padding: 30px 20px;
+    max-width: 100%;
+    order: 1;
+  }
+
+  .story__title,
+  .story__text {
+    max-width: 100%;
+  }
+}

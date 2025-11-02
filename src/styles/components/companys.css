@@ -36,3 +36,23 @@
  .companys__logo {
    /* стили для логотипа компании */
  }
+
+ @media (max-width: 768px) {
+   .companys__list {
+     flex-direction: column;
+     gap: 30px;
+     padding: 0 16px;
+   }
+
+   .companys__text-list {
+     white-space: normal;
+     /* разрешаем перенос текста */
+     text-align: center;
+   }
+
+   .companys__text,
+   .companys__text--small {
+     font-size: 18px;
+     /* немного уменьшаем, если нужно */
+   }
+ }

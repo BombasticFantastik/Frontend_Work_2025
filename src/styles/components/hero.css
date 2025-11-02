@@ -37,3 +37,24 @@
 .hero__description {
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: 400px;
+    padding: 20px 16px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero__title {
+    max-width: 100%;
+    font-size: 1.8rem;
+  }
+
+  .hero__content,
+  .hero__description {
+    padding: 0;
+    font-size: 0.95rem;
+  }
+}

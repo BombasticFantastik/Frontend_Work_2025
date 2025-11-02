@@ -2,3 +2,7 @@
   margin: 0 auto;
   max-width: 1380px;
 }
+
+@media (max-width: 768px) {
+  .container {}
+}

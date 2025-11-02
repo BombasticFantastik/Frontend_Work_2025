@@ -58,4 +58,38 @@
   margin-left: 100px;
   margin-top: 50px;
   color: var(--purple);
+
+}
+
+
+@media (max-width: 768px) {
+  .posts__container {
+    flex-direction: column;
+    margin: 0 16px;
+    /* добавлено, чтобы не упиралось в край */
+  }
+
+  .posts__featured {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .post__image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .post__excerpt,
+  .post-list__item,
+  .post-list__meta {
+    max-width: 100%;
+  }
+
+  .posts__view-all {
+    margin-left: 0;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+  }
 }
