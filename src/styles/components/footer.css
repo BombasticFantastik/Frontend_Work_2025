@@ -51,7 +51,6 @@
 }
 
 .footer__subscribe-input {
-  width: 323px;
   padding: 12px 16px;
   background-color: var(--black-lighter-blue);
   color: #fff;
@@ -142,7 +141,7 @@
 
   .footer__subscribe-title,
   .footer__subscribe-input {
-    width: 100%;
+    /* width: 100%; */
     max-width: 100%;
   }
 

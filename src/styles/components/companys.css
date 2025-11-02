@@ -46,6 +46,9 @@
 
    .companys__text-list {
      white-space: normal;
+     display: flex;
+     gap: 20%;
+     white-space: nowrap;
      /* разрешаем перенос текста */
      text-align: center;
    }

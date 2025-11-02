@@ -42,7 +42,6 @@
   .hero {
     height: auto;
     min-height: 400px;
-    padding: 20px 16px;
     background-size: cover;
     background-position: center;
   }
@@ -56,5 +55,6 @@
   .hero__description {
     padding: 0;
     font-size: 0.95rem;
+    padding: 8%;
   }
 }
