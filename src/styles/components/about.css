@@ -15,7 +15,8 @@
   display: flex;
 }
 
-.about__item {}
+.about__item {
+}
 
 .about__label {
   color: var(--black);
@@ -63,11 +64,9 @@
   background-color: var(--purple);
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .about {
     min-width: auto;
-    /* убираем принудительную ширину */
-    padding: 0 16px;
   }
 
   .about__content {
@@ -87,7 +86,7 @@
   .about__lines {
     width: 100%;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 0;
   }
 
   .about__white-line,

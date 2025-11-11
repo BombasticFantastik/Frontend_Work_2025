@@ -3,6 +3,9 @@
   max-width: 1380px;
 }
 
-@media (max-width: 768px) {
-  .container {}
+@media (width <= 768px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1380px;
+  }
 }

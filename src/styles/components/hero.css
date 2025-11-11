@@ -2,9 +2,8 @@
   background-size: 100% 100%;
   height: 720px;
   width: 100%;
-  background-image: url(/Images/Мужчина_с_компьютером.png);
+  background-image: url('/Images/Мужчина_с_компьютером.png');
   background-repeat: no-repeat;
-
 }
 
 .hero__content {
@@ -31,14 +30,13 @@
 
 .hero__author-name {
   color: #ffd050;
-
 }
 
 .hero__description {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .hero {
     height: auto;
     min-height: 400px;
@@ -51,10 +49,17 @@
     font-size: 1.8rem;
   }
 
-  .hero__content,
   .hero__description {
     padding: 0;
     font-size: 0.95rem;
+    max-width: 10000px;
+  }
+
+  .hero__content {
     padding: 8%;
+  }
+
+  .hero__meta {
+    white-space: nowrap;
   }
 }

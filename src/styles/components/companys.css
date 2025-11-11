@@ -1,61 +1,59 @@
- .companys {
-   /* стили блока */
- }
+.companys {
+  /* стили блока */
+}
 
- .companys__list {
-   display: flex;
-   flex-direction: row;
-   gap: 100px;
-   justify-content: center;
-   align-items: center;
- }
+.companys__list {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
 
- .companys__text-list {
-   white-space: nowrap;
+.companys__text-list {
+  white-space: nowrap;
+}
 
+.companys__text--small {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--medium-grey);
+}
 
- }
+.companys__text {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--medium-grey);
+}
 
- .companys__text--small {
-   font-family: var(--font-family);
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 143%;
-   color: var(--medium-grey);
- }
+.companys__logo {
+  /* стили для логотипа компании */
+}
 
- .companys__text {
-   font-family: var(--second-family);
-   font-weight: 700;
-   font-size: 24px;
+@media (width <= 768px) {
+  .companys__list {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 16px;
+  }
 
-   line-height: 133%;
-   color: var(--medium-grey);
- }
+  .companys__text-list {
+    display: flex;
+    gap: 5%;
+    white-space: nowrap;
 
- .companys__logo {
-   /* стили для логотипа компании */
- }
+    /* разрешаем перенос текста */
+    text-align: center;
+  }
 
- @media (max-width: 768px) {
-   .companys__list {
-     flex-direction: column;
-     gap: 30px;
-     padding: 0 16px;
-   }
+  .companys__text,
+  .companys__text--small {
+    font-size: 18px;
 
-   .companys__text-list {
-     white-space: normal;
-     display: flex;
-     gap: 20%;
-     white-space: nowrap;
-     /* разрешаем перенос текста */
-     text-align: center;
-   }
-
-   .companys__text,
-   .companys__text--small {
-     font-size: 18px;
-     /* немного уменьшаем, если нужно */
-   }
- }
+    /* немного уменьшаем, если нужно */
+  }
+}

@@ -32,6 +32,7 @@
 
 .comments__title {
   color: var(--black);
+
   /* стили заголовка */
 }
 
@@ -52,6 +53,7 @@
 
 .comments__quote {
   min-width: 500px;
+
   /* стили цитаты */
 }
 
@@ -105,7 +107,7 @@
   /* аналогично */
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .comments__content {
     padding: 40px 16px;
     flex-direction: column;
@@ -114,6 +116,7 @@
 
   .comments__line {
     display: none;
+
     /* вертикальная линия не нужна на мобильных */
   }
 

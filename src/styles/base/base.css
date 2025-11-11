@@ -16,20 +16,22 @@ body {
   background-color: var(--light);
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   body {
     min-width: 100px;
     max-width: 768px;
   }
 }
 
-header {}
+header {
+}
 
 nav {
   display: flex;
 }
 
-img {}
+img {
+}
 
 h1 {
   font-weight: 700;

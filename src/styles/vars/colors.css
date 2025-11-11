@@ -9,7 +9,7 @@
   --light-yellow: #fbf6ea;
   --light-grey: #f4f4f4;
   --lavender: #f4f0f8;
-  --black-lighter-blue: #2e3040
+  --black-lighter-blue: #2e3040;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +20,7 @@
     --yellow: #282828;
     --dark-grey: #1e1e1e;
     --medium-grey: #fff;
-    --purple: #77DDE7;
+    --purple: #77dde7;
     --light: #1e1e1e;
     --lavender: #4c4c4c;
     --light-yellow: #4c4c4c;

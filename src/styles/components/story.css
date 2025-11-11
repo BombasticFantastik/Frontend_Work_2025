@@ -1,6 +1,5 @@
 .story {
   display: flex;
-
 }
 
 .story__image {
@@ -14,7 +13,7 @@
   position: absolute;
   margin-left: 650px;
   margin-top: 200px;
-  padding: 75px 75px 100px 75px;
+  padding: 75px 75px 100px;
   max-width: 706px;
 }
 
@@ -31,10 +30,11 @@
   max-width: 590px;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .story {
     flex-direction: column;
     position: relative;
+
     /* чтобы absolute не слетал */
     padding: 0 16px;
   }
@@ -42,15 +42,17 @@
   .story__image {
     width: 0%;
     height: auto;
-    padding: 0px 0;
+    padding: 0;
     order: 2;
+
     /* изображение под текстом */
   }
 
   .story__content {
     position: static;
+
     /* отменяем absolute */
-    margin: 0 0 40px 0;
+    margin: 0 0 40px;
     padding: 30px 20px;
     max-width: 100%;
     order: 1;

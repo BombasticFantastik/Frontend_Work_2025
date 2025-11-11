@@ -10,15 +10,15 @@
   line-height: 40px;
   max-width: 430px;
   text-align: center;
-  margin: 0px;
+  margin: 0;
 }
 
 .join__description {
   max-width: 390px;
-  text-align: center
+  text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .join {
     padding: 0 16px 40px;
   }
