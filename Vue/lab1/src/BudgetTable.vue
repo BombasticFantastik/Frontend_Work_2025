@@ -17,8 +17,8 @@ function sort_update() {
     case 'no':
       sort_type.value = 'asc'
       break
-    case 'ask':
-      sort_type.value = 'asc'
+    case 'asc':
+      sort_type.value = 'desc'
       break
     case 'desc':
       sort_type.value = 'no'
@@ -51,7 +51,9 @@ const sorted_operations = computed(() => {
         <tr class="border-b">
           <th class="p-2">Название</th>
           <th class="p-2">Тип</th>
-          <th class="p-2">Сумма</th>
+          <th class="p-2">
+            <button @click="sort_update"> Сумма </button>
+          </th>
           <th class="p-2">Действия</th>
         </tr>
       </thead>
